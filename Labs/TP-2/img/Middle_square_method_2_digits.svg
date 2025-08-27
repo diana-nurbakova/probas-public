@@ -1,0 +1,133 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-307 -5 300 450">
+ <title>Middle square method 2 digits</title>
+ <desc>Directed graph of all 100 2-digit pseudorandom numbers obtained using the middle-square method, by CMG Lee.</desc>
+ <style type="text/css">
+.number { fill:#000000; }
+.line   { stroke:#000000; stroke-opacity:0.5; }
+ </style>
+ <defs>
+  <path id="arrow" d="M 9.5,0 H 14 m -2,-2 l 2,2 l -2,2" class="line"/>
+  <g id="loop1">
+   <path d="M 9,0 V 10 H 0" class="line"/>
+   <use xlink:href="#arrow" transform="translate(0,19) rotate(-90)"/>
+  </g>
+  <g id="loop2">
+   <path d="M 9,0 V -10 H -20" class="line"/>
+   <use xlink:href="#arrow" transform="translate(-20,-19) rotate(90)"/>
+  </g>
+ </defs>
+ <g font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle" stroke-linejoin="round" stroke-linecap="round" stroke="none" fill="none">
+  <rect x="-4999" y="-4999" width="9999" height="9999" fill="#ffffff"/>
+  <g>
+   <g transform="translate(-20 ,0)"><text x="0" y="0"   dy="0.7ex" transform="scale(0.75,1)" class="number">00</text><path d="M 5,  0 H 9 V   0" class="line"/><use xlink:href="#loop1" transform="translate(0,  0)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="0"   dy="0.7ex" transform="scale(0.75,1)" class="number">01</text><path d="M 5,  0 H 9 V   0" class="line"/><use xlink:href="#arrow" transform="translate(0,  0)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="0"   dy="0.7ex" transform="scale(0.75,1)" class="number">04</text><path d="M 5,  0 H 9 V   0" class="line"/><use xlink:href="#arrow" transform="translate(0,  0)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="0"   dy="0.7ex" transform="scale(0.75,1)" class="number">07</text><path d="M 5,  0 H 9 V   0" class="line"/><use xlink:href="#arrow" transform="translate(0,  0)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="10"  dy="0.7ex" transform="scale(0.75,1)" class="number">71</text><path d="M 5, 10 H 9 V   0" class="line"/><use xlink:href="#arrow" transform="translate(0,  0)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">02</text><path d="M 5, 20 H 9 V   0" class="line"/><use xlink:href="#arrow" transform="translate(0,  0)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">05</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">84</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">29</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">36</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">19</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-160,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">14</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-180,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">12</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-200,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">11</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-220,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">46</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-240,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">92</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-260,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">77</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-280,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">76</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-300,0)"><text x="0" y="20"  dy="0.7ex" transform="scale(0.75,1)" class="number">42</text><path d="M 5, 20 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-300,0)"><text x="0" y="30"  dy="0.7ex" transform="scale(0.75,1)" class="number">69</text><path d="M 5, 30 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-260,0)"><text x="0" y="40"  dy="0.7ex" transform="scale(0.75,1)" class="number">89</text><path d="M 5, 40 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="50"  dy="0.7ex" transform="scale(0.75,1)" class="number">37</text><path d="M 5, 50 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="60"  dy="0.7ex" transform="scale(0.75,1)" class="number">58</text><path d="M 5, 60 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="70"  dy="0.7ex" transform="scale(0.75,1)" class="number">43</text><path d="M 5, 70 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="80"  dy="0.7ex" transform="scale(0.75,1)" class="number">62</text><path d="M 5, 80 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="80"  dy="0.7ex" transform="scale(0.75,1)" class="number">25</text><path d="M 5, 80 H 9 V  80" class="line"/><use xlink:href="#arrow" transform="translate(0, 80)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="80"  dy="0.7ex" transform="scale(0.75,1)" class="number">16</text><path d="M 5, 80 H 9 V  80" class="line"/><use xlink:href="#arrow" transform="translate(0, 80)"/></g>
+   <g transform="translate(-160,0)"><text x="0" y="80"  dy="0.7ex" transform="scale(0.75,1)" class="number">13</text><path d="M 5, 80 H 9 V  80" class="line"/><use xlink:href="#arrow" transform="translate(0, 80)"/></g>
+   <g transform="translate(-180,0)"><text x="0" y="80"  dy="0.7ex" transform="scale(0.75,1)" class="number">56</text><path d="M 5, 80 H 9 V  80" class="line"/><use xlink:href="#arrow" transform="translate(0, 80)"/></g>
+   <g transform="translate(-200,0)"><text x="0" y="80"  dy="0.7ex" transform="scale(0.75,1)" class="number">81</text><path d="M 5, 80 H 9 V  80" class="line"/><use xlink:href="#arrow" transform="translate(0, 80)"/></g>
+   <g transform="translate(-200,0)"><text x="0" y="90"  dy="0.7ex" transform="scale(0.75,1)" class="number">87</text><path d="M 5, 90 H 9 V  80" class="line"/><use xlink:href="#arrow" transform="translate(0, 80)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="100" dy="0.7ex" transform="scale(0.75,1)" class="number">68</text><path d="M 5,100 H 9 V  80" class="line"/><use xlink:href="#arrow" transform="translate(0, 80)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="100" dy="0.7ex" transform="scale(0.75,1)" class="number">41</text><path d="M 5,100 H 9 V 100" class="line"/><use xlink:href="#arrow" transform="translate(0,100)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="110" dy="0.7ex" transform="scale(0.75,1)" class="number">75</text><path d="M 5,110 H 9 V  80" class="line"/><use xlink:href="#arrow" transform="translate(0, 80)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="120" dy="0.7ex" transform="scale(0.75,1)" class="number">32</text><path d="M 5,120 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="120" dy="0.7ex" transform="scale(0.75,1)" class="number">18</text><path d="M 5,120 H 9 V 120" class="line"/><use xlink:href="#arrow" transform="translate(0,120)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="120" dy="0.7ex" transform="scale(0.75,1)" class="number">72</text><path d="M 5,120 H 9 V 120" class="line"/><use xlink:href="#arrow" transform="translate(0,120)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="120" dy="0.7ex" transform="scale(0.75,1)" class="number">27</text><path d="M 5,120 H 9 V 120" class="line"/><use xlink:href="#arrow" transform="translate(0,120)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="130" dy="0.7ex" transform="scale(0.75,1)" class="number">61</text><path d="M 5,130 H 9 V 120" class="line"/><use xlink:href="#arrow" transform="translate(0,120)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="140" dy="0.7ex" transform="scale(0.75,1)" class="number">82</text><path d="M 5,140 H 9 V 120" class="line"/><use xlink:href="#arrow" transform="translate(0,120)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="150" dy="0.7ex" transform="scale(0.75,1)" class="number">73</text><path d="M 5,150 H 9 V 120" class="line"/><use xlink:href="#arrow" transform="translate(0,120)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="160" dy="0.7ex" transform="scale(0.75,1)" class="number">45</text><path d="M 5,160 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="170" dy="0.7ex" transform="scale(0.75,1)" class="number">55</text><path d="M 5,170 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="180" dy="0.7ex" transform="scale(0.75,1)" class="number">95</text><path d="M 5,180 H 9 V  20" class="line"/><use xlink:href="#arrow" transform="translate(0, 20)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">03</text><path d="M 5,190 H 9 V   0" class="line"/><use xlink:href="#arrow" transform="translate(0,  0)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">06</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">08</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">09</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">64</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">93</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-160,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">44</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-180,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">21</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-200,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">96</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-220,0)"><text x="0" y="190" dy="0.7ex" transform="scale(0.75,1)" class="number">31</text><path d="M 5,190 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-220,0)"><text x="0" y="200" dy="0.7ex" transform="scale(0.75,1)" class="number">63</text><path d="M 5,200 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-180,0)"><text x="0" y="210" dy="0.7ex" transform="scale(0.75,1)" class="number">38</text><path d="M 5,210 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="220" dy="0.7ex" transform="scale(0.75,1)" class="number">33</text><path d="M 5,220 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="230" dy="0.7ex" transform="scale(0.75,1)" class="number">78</text><path d="M 5,230 H 9 V 190" class="line"/><use xlink:href="#arrow" transform="translate(0,190)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="230" dy="0.7ex" transform="scale(0.75,1)" class="number">28</text><path d="M 5,230 H 9 V 230" class="line"/><use xlink:href="#arrow" transform="translate(0,230)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="230" dy="0.7ex" transform="scale(0.75,1)" class="number">17</text><path d="M 5,230 H 9 V 230" class="line"/><use xlink:href="#arrow" transform="translate(0,230)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="240" dy="0.7ex" transform="scale(0.75,1)" class="number">91</text><path d="M 5,240 H 9 V 230" class="line"/><use xlink:href="#arrow" transform="translate(0,230)"/></g>
+   <g transform="translate(-160,0)"><text x="0" y="240" dy="0.7ex" transform="scale(0.75,1)" class="number">54</text><path d="M 5,240 H 9 V 240" class="line"/><use xlink:href="#arrow" transform="translate(0,240)"/></g>
+  </g>
+  <g transform="translate(0,10)">
+   <g transform="translate(-20 ,0)"><text x="0" y="250" dy="0.7ex" transform="scale(0.75,1)" class="number">10</text><path d="M 5,250 H 9 V 250" class="line"/><use xlink:href="#loop1" transform="translate(0,250)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="250" dy="0.7ex" transform="scale(0.75,1)" class="number">90</text><path d="M 5,250 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="250" dy="0.7ex" transform="scale(0.75,1)" class="number">30</text><path d="M 5,250 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="250" dy="0.7ex" transform="scale(0.75,1)" class="number">48</text><path d="M 5,250 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="250" dy="0.7ex" transform="scale(0.75,1)" class="number">22</text><path d="M 5,250 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="250" dy="0.7ex" transform="scale(0.75,1)" class="number">15</text><path d="M 5,250 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="250" dy="0.7ex" transform="scale(0.75,1)" class="number">34</text><path d="M 5,250 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="260" dy="0.7ex" transform="scale(0.75,1)" class="number">35</text><path d="M 5,260 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="260" dy="0.7ex" transform="scale(0.75,1)" class="number">66</text><path d="M 5,260 H 9 V 260" class="line"/><use xlink:href="#arrow" transform="translate(0,260)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="270" dy="0.7ex" transform="scale(0.75,1)" class="number">65</text><path d="M 5,270 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="280" dy="0.7ex" transform="scale(0.75,1)" class="number">85</text><path d="M 5,280 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="290" dy="0.7ex" transform="scale(0.75,1)" class="number">59</text><path d="M 5,290 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="300" dy="0.7ex" transform="scale(0.75,1)" class="number">67</text><path d="M 5,300 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="300" dy="0.7ex" transform="scale(0.75,1)" class="number">26</text><path d="M 5,300 H 9 V 300" class="line"/><use xlink:href="#arrow" transform="translate(0,300)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="310" dy="0.7ex" transform="scale(0.75,1)" class="number">70</text><path d="M 5,310 H 9 V 250" class="line"/><use xlink:href="#arrow" transform="translate(0,250)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="310" dy="0.7ex" transform="scale(0.75,1)" class="number">52</text><path d="M 5,310 H 9 V 310" class="line"/><use xlink:href="#arrow" transform="translate(0,310)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="310" dy="0.7ex" transform="scale(0.75,1)" class="number">23</text><path d="M 5,310 H 9 V 310" class="line"/><use xlink:href="#arrow" transform="translate(0,310)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="320" dy="0.7ex" transform="scale(0.75,1)" class="number">39</text><path d="M 5,320 H 9 V 310" class="line"/><use xlink:href="#arrow" transform="translate(0,310)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="320" dy="0.7ex" transform="scale(0.75,1)" class="number">86</text><path d="M 5,320 H 9 V 320" class="line"/><use xlink:href="#arrow" transform="translate(0,320)"/></g>
+  </g>
+  <g>
+   <g transform="translate(-20 ,0)"><text x="0" y="330" dy="0.7ex" transform="scale(0.75,1)" class="number">50</text><path d="M 5,330 H 9 V 330" class="line"/><use xlink:href="#loop1" transform="translate(0,330)"/></g>
+  </g>
+  <g transform="translate(0,10)">
+   <g transform="translate(-20 ,0)"><text x="0" y="340" dy="0.7ex" transform="scale(0.75,1)" class="number">60</text><path d="M 5,340 H 9 V 340" class="line"/><use xlink:href="#loop1" transform="translate(0,340)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="340" dy="0.7ex" transform="scale(0.75,1)" class="number">40</text><path d="M 5,340 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="340" dy="0.7ex" transform="scale(0.75,1)" class="number">20</text><path d="M 5,340 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="340" dy="0.7ex" transform="scale(0.75,1)" class="number">47</text><path d="M 5,340 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-100,0)"><text x="0" y="340" dy="0.7ex" transform="scale(0.75,1)" class="number">74</text><path d="M 5,340 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-120,0)"><text x="0" y="340" dy="0.7ex" transform="scale(0.75,1)" class="number">88</text><path d="M 5,340 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-140,0)"><text x="0" y="340" dy="0.7ex" transform="scale(0.75,1)" class="number">83</text><path d="M 5,340 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-160,0)"><text x="0" y="340" dy="0.7ex" transform="scale(0.75,1)" class="number">94</text><path d="M 5,340 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="350" dy="0.7ex" transform="scale(0.75,1)" class="number">49</text><path d="M 5,350 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="360" dy="0.7ex" transform="scale(0.75,1)" class="number">80</text><path d="M 5,360 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="360" dy="0.7ex" transform="scale(0.75,1)" class="number">53</text><path d="M 5,360 H 9 V 360" class="line"/><use xlink:href="#arrow" transform="translate(0,360)"/></g>
+   <g transform="translate(-80 ,0)"><text x="0" y="370" dy="0.7ex" transform="scale(0.75,1)" class="number">99</text><path d="M 5,370 H 9 V 360" class="line"/><use xlink:href="#arrow" transform="translate(0,360)"/></g>
+   <g transform="translate(-60 ,0)"><text x="0" y="380" dy="0.7ex" transform="scale(0.75,1)" class="number">97</text><path d="M 5,380 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="390" dy="0.7ex" transform="scale(0.75,1)" class="number">51</text><path d="M 5,390 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="400" dy="0.7ex" transform="scale(0.75,1)" class="number">98</text><path d="M 5,400 H 9 V 340" class="line"/><use xlink:href="#arrow" transform="translate(0,340)"/></g>
+  </g>
+  <g transform="translate(0,20)">
+   <g transform="translate(-20 ,0)"><text x="0" y="410" dy="0.7ex" transform="scale(0.75,1)" class="number">24</text><path d="M 5,410 H 9 V 410" class="line"/><use xlink:href="#loop2" transform="translate(0,410)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="410" dy="0.7ex" transform="scale(0.75,1)" class="number">57</text><path d="M 5,410 H 9 V 410" class="line"/><use xlink:href="#arrow" transform="translate(0,410)"/></g>
+   <g transform="translate(-40 ,0)"><text x="0" y="420" dy="0.7ex" transform="scale(0.75,1)" class="number">79</text><path d="M 5,420 H 9 V 410" class="line"/><use xlink:href="#arrow" transform="translate(0,410)"/></g>
+  </g>
+ </g>
+</svg>
